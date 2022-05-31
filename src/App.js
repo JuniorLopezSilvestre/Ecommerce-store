@@ -1,10 +1,12 @@
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Background from './components/Background';
+import RBsNavBar from './components/RBsNavBar';
 function App() {
   return (
-    <div>
-      <h1>Aguante React!!!!</h1>
-    </div>
+   <> <RBsNavBar/>
+      <Background/>
+   </>
   );
 }
 
