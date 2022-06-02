@@ -1,12 +1,13 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Background from './components/Background';
-import RBsNavBar from './components/RBsNavBar';
+import MUNavbar from './components/MUNavbar';
+import Background from './components/Bg';
+import ItemListContainer from './components/ItemListContainer';
 function App() {
   return (
-   <> <RBsNavBar/>
-      <Background/>
-   </>
+    <><MUNavbar/>
+    <ItemListContainer Lista={'Aqui van los articulos'}/>
+    <Background/>
+</>
   );
 }
 
