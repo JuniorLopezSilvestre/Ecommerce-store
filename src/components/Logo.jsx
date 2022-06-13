@@ -1,7 +1,7 @@
 import React from 'react'
-import Brand from '../assets/brand.jpg'
+import Logo from '../assets/logo.svg'
 export default function logo() {
   return (
-    <img src={Brand} alt="Logex" style={{width:'92px'}}/>
+    <img src={Logo} alt="Logex" style={{width:'92px'}}/>
   )
 }

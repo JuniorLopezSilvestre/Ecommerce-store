@@ -17,6 +17,8 @@ const ItemCount = ({inicial,max,onAdd}) => {
         setCount(inicial)
     }
 
+
+
   return (
     <>
         <h2 style={{display:"flex",justifyContent:"center"}}>{count}</h2>
