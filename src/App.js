@@ -1,3 +1,4 @@
+import Box from '@mui/material/Box'
 import MUNavbar from './components/shared/Navbar';
 import Background from './components/shared/Bg';
 import ItemListContainer from './components/shared/ItemListContainer';
@@ -15,9 +16,11 @@ const onAdd = (count) =>{
     <ThemeProvider theme={theme}>
     <MUNavbar/>
     {/*<ItemCount  inicial={1} max={10} onAdd={onAdd}/>*/}
-    <Item/>
-    <ItemListContainer/>
-    {/*<Background/> */}
+    <Box sx={{mt:6}}>
+      <Item/>
+      <ItemListContainer/>
+      {/*<Background/> */}
+    </Box>
     </ThemeProvider>
   );
 }
